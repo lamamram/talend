@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_fL1uMPFbEeyzIZ_6KymH-g" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_fL1uMfFbEeyzIZ_6KymH-g" comment="" name="db_out_Port" prompt="db_out_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_fL1uMvFbEeyzIZ_6KymH-g" comment="" name="db_out_Database" prompt="db_out_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="db_out"/>
+    <contextParameter xmi:id="_fL1uM_FbEeyzIZ_6KymH-g" comment="" name="db_out_Login" prompt="db_out_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+    <contextParameter xmi:id="_fL1uNPFbEeyzIZ_6KymH-g" comment="" name="db_out_AdditionalParams" prompt="db_out_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_fL1uNfFbEeyzIZ_6KymH-g" comment="" name="db_out_Server" prompt="db_out_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_fL1uNvFbEeyzIZ_6KymH-g" comment="" name="db_out_Password" prompt="db_out_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:yQTWoAjYkmwHrASVU4ZSjIeMulxzgyzFmMkBaZkl2L+k4S/4"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_fL1uN_FbEeyzIZ_6KymH-g" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_fL1uOPFbEeyzIZ_6KymH-g" comment="" name="db_out_Port" prompt="db_out_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_fL1uOfFbEeyzIZ_6KymH-g" comment="" name="db_out_Database" prompt="db_out_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="db_out"/>
+    <contextParameter xmi:id="_fL1uOvFbEeyzIZ_6KymH-g" comment="" name="db_out_Login" prompt="db_out_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+    <contextParameter xmi:id="_fL1uO_FbEeyzIZ_6KymH-g" comment="" name="db_out_AdditionalParams" prompt="db_out_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_fL1uPPFbEeyzIZ_6KymH-g" comment="" name="db_out_Server" prompt="db_out_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_fL1uPfFbEeyzIZ_6KymH-g" comment="" name="db_out_Password" prompt="db_out_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:+LI29RFMAhlsCtBtoJMv6NgNCZhhezBBcUh8Q2vZOMP/YRz0"/>
+  </talendfile:ContextType>
+</xmi:XMI>

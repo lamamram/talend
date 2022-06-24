@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_-OeQIPCoEeyunMNX0EW5pw" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_-OeQIfCoEeyunMNX0EW5pw" comment="" name="db_in_AdditionalParams" prompt="db_in_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_-OeQIvCoEeyunMNX0EW5pw" comment="" name="db_in_Password" prompt="db_in_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:O2TsrAHUC+iTb/3XfR3/aXDY8w39D1ZOw1vQOFPaNTN0cUsP"/>
+    <contextParameter xmi:id="_-OeQI_CoEeyunMNX0EW5pw" comment="" name="db_in_Server" prompt="db_in_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_-OeQJPCoEeyunMNX0EW5pw" comment="" name="db_in_Port" prompt="db_in_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_-OeQJfCoEeyunMNX0EW5pw" comment="" name="db_in_Login" prompt="db_in_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+    <contextParameter xmi:id="_-OeQJvCoEeyunMNX0EW5pw" comment="" name="db_in_Database" prompt="db_in_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="db_in"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_3ZVvoPE9Eey_BJjesK_Rmg" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_3ZVvofE9Eey_BJjesK_Rmg" comment="" name="db_in_AdditionalParams" prompt="db_in_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_3ZVvovE9Eey_BJjesK_Rmg" comment="" name="db_in_Password" prompt="db_in_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:A7hQUjdlTSwy43MHV8t2tqzjH6Q8wI/oGwYFpMuba/hmOGXR"/>
+    <contextParameter xmi:id="_3ZVvo_E9Eey_BJjesK_Rmg" comment="" name="db_in_Server" prompt="db_in_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="192.168.1.33"/>
+    <contextParameter xmi:id="_3ZVvpPE9Eey_BJjesK_Rmg" comment="" name="db_in_Port" prompt="db_in_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5216"/>
+    <contextParameter xmi:id="_3ZVvpfE9Eey_BJjesK_Rmg" comment="" name="db_in_Login" prompt="db_in_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend"/>
+    <contextParameter xmi:id="_3ZVvpvE9Eey_BJjesK_Rmg" comment="" name="db_in_Database" prompt="db_in_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="db_in"/>
+  </talendfile:ContextType>
+</xmi:XMI>

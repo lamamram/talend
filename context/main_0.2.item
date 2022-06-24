@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_nFv5sfCrEeyunMNX0EW5pw" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_nGW9sPCrEeyunMNX0EW5pw" comment="" name="data_dir" prompt="data_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/talend/data_dir/"/>
+    <contextParameter xmi:id="_FY5VcPLYEeyRv96EOew0OQ" comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://gorest.co.in/public/v2/"/>
+    <contextParameter xmi:id="_OgIYMPMDEeyRv96EOew0OQ" comment="" name="nb_cpus" prompt="nb_cpus?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="6"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_8OT6gPE9Eey_BJjesK_Rmg" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_8OT6gfE9Eey_BJjesK_Rmg" comment="" name="data_dir" prompt="data_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/"/>
+    <contextParameter xmi:id="_FY5VcfLYEeyRv96EOew0OQ" comment="" name="api_url" prompt="api_url?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OgIYMfMDEeyRv96EOew0OQ" comment="" name="nb_cpus" prompt="nb_cpus?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

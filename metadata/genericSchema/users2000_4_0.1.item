@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_VTnhYPCWEeyBn91J-BpTMQ" comment="connectionComment" label="connectionLabel" dataPackage="_VTnhYfCWEeyBn91J-BpTMQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_VTnhYfCWEeyBn91J-BpTMQ" dataManager="_VTnhYPCWEeyBn91J-BpTMQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VTnhYvCWEeyBn91J-BpTMQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VTnhY_CWEeyBn91J-BpTMQ" name="id" id="36" label="id" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_VToIcPCWEeyBn91J-BpTMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VToIcfCWEeyBn91J-BpTMQ" name="name" id="37" label="name" length="100" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_VToIcvCWEeyBn91J-BpTMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VToIc_CWEeyBn91J-BpTMQ" name="firstname" id="38" label="firstname" length="100" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_VToIdPCWEeyBn91J-BpTMQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VToIdfCWEeyBn91J-BpTMQ" name="email" id="39" label="email" length="150" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_VToIdvCWEeyBn91J-BpTMQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
