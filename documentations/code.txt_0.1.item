@@ -1,0 +1,68 @@
+Talend et quelques notions Java
+===============================
+
+comparasions
+------------
+== : Égal
+!= : Différent
+Xxxx == 100 ou xxxx > 100 ou xxxx < 100 
+"toto".equals("xxx") / !"toto".equals("xxx") pour les String
+
+logique
+-------
+|| : ou
+&& : et
+!  : non
+
+Fonctions utiles
+----------------
+
+Xxxx == null ou xxxx != null
+Relational.isNull(Xxxx): is null ?
+
+Xxxx.isEmpty() / ! Xxxx.isEmpty(): vide != null
+
+Xxxx.startsWith ("xx") / Xxxx.endswith ("xx")
+Xxxx.contains ("xx") : Contient xxxx
+
+
+Conversion Talend
+-----------------------------
+Integer.valueOf("xxxx") : string -> int
+
+String.valueOf(xxxx) : int -> string
+
+xxxx.toString() ou xxxx + "" : int | float-> string
+
+Float.parseFloat("xxxx") : string -> float
+
+BigDecimal("xxxx" | xxxx) : string | int -> BigDecimal
+
+TalendDate.parseDate("dd/MM/yyyy","01/01/2022") : string -> Date
+TalendDate.formatDate("dd", XXX) : objet Date XXX -> string
+
+chaines de caractères
+---------------------
+StringHandling.LEFT(xxxx,y) / StringHandling.RIGHT(xxxx,y) : Y caractères partant de la gauche ou de la droite
+Cette fonction Talend protège des null.
+
+xxxx.substring(0,3) : Du premier au troisième caractère d'une chaîne.
+
+Arrays.asList("X","Y").contains(xxxx) : Champ xxxx dans la liste
+
+StringHandling.CHANGE(chaine ,"caractère à remplacer", "caractère remplaçant")) : Substitution d'un caractère dans une chaîne
+
+
+opérateur ternaire
+------------------
+
+Xxxx != null ? Xxxx : null : (Test) ? Valeur si vrai : Valeur si faux
+
+Xxxx != 0 ? Xxxx : 0 : En Java, si l’objet est en int, le null n'est pas accepté, il faut mettre un 0.
+
+regex
+-----
+
+Exemple pour enlever les caractères d'un string :
+
+"12zer45aaz43".replaceAll("\\D+",""); Résultat : 124543

@@ -1,0 +1,79 @@
+procédure d'export de projet
+============================
+appuyer sur le bouton export de la toolbar haute de talend
+- choisir le projet, et les élements à l'intérieur
+- ne pas seléctionner le dossier Temp qui peut contenir
+  des données volimuneuses ephémaires
+ 
+- renseigner le chemin d'export (zip)
+- Finish
+
+
+procédure d'export d'éléments du référentiel
+============================================
+
+- clic droit dans le référentiel -> export éléments
+- sélectionner les éléments à exporter
+- choisir ou non d'exporter les dépendances Talend 
+  (contexte, méta, routines, sous jobs...)
+- resnseigner le chemin d'export (zip)
+- Finish
+
+procédure d'import d'éléments du référentiel
+============================================
+
+- clic droit sur un élément du référentiel -> import éléments
+- sélectionner les éléments à importer (zip)
+- choisir ou non d'importer les dépendances Talend 
+  (contexte, méta, routines, sous jobs...)
+- ATTENTION:
+  1/ si l'élément est ouvert dans l'éditeur (job, routine)
+     => impossible d'importer, il faut fermer
+  2/ si l'élément existe déjà dans le référentiel,
+     => supprimer définitivement l'élément existant avant d'importer
+	 => ou bien dupliquer le job ou le renommer
+	 => ou bien cocher la case "overwrite" pour écrase l'existant
+- Finish
+
+procédure de build du projet
+============================
+
+1/ click droit sur le job principal => construire le job
+
+2/ selécionner un chemin d'export
+   
+3/ seléctionner une version
+   REM: gérer les versions au niveau global:
+        fichier -> propriétés du projet -> Général 
+		        -> gestion des versions -> mettre à niveau
+	    selectionner des jobs avec leurs dépendances
+
+4/ type d'export : standalone (su TOS_DI)
+
+5/ interpéteur de commande: dépend de l'environnement d'exécution
+
+6/ scripts de contextes
+   a) si export vers un environnement non critique (dev, preprod)
+      - cocher
+	  - seléctionner l'environnement configuré avec les contextes
+	    du référentiel
+	  - cocher "transmettre au jobs enfants"
+   b) si environnement critique:
+      - décocher la case, utiliser le fichier externe cf job main
+	  - ... ou utiliser le tContextLoad implicite mais pour exporter
+	  https://www.talend.com/resources/best-practices-for-using-context-variables-part-1/
+	  bon courage
+
+7/ Elements: toujours coché
+
+8/ sources java: si build extérieur à TOS (maven, gradle, jenkins...)
+
+
+lancement de l'etl à l'extérieur de TOS:
+========================================
+
+1/ REM: la variable "extern_context_path" est utilisée avant chargement du fichier contexte!!!!
+
+2/ workaround: lancer la commande java dans main_run.(bat | ps1 | sh):
+    - avec l'option --context_param extern_context_path="c:\\path\\to\\prod.properties" 
+

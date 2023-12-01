@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_-qDuwJBIEe6dVrDPc4RehQ" comment="connectionComment" label="connectionLabel" dataPackage="_-qDuwZBIEe6dVrDPc4RehQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_-qDuwZBIEe6dVrDPc4RehQ" dataManager="_-qDuwJBIEe6dVrDPc4RehQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-qDuwpBIEe6dVrDPc4RehQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-qDuw5BIEe6dVrDPc4RehQ" name="id" id="1558" label="id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_-qDuxJBIEe6dVrDPc4RehQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-qDuxZBIEe6dVrDPc4RehQ" name="last_name" id="1561" label="last_name" length="255" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_-qEV0JBIEe6dVrDPc4RehQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-qEV0ZBIEe6dVrDPc4RehQ" name="first_name" id="1562" label="first_name" length="255" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_-qEV0pBIEe6dVrDPc4RehQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-qEV05BIEe6dVrDPc4RehQ" name="email" id="1563" label="email" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_-qEV1JBIEe6dVrDPc4RehQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-qEV1ZBIEe6dVrDPc4RehQ" name="active" id="1568" label="active" length="3" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_-qEV1pBIEe6dVrDPc4RehQ" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

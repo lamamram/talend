@@ -1,0 +1,31 @@
+versionner un projet talend Open Studio
+----------------------------------------
+
+A/ initialisation du dépôt GIT
+
+1/ le chef de projet créé le projet talend sur son poste
+2/ ajout du fichier .gitignore dans le dossier du projet nouvellement créé
+3/ commandes git dans le répertoire projet
+   > git init
+   > git add . && git commit -m "first commit"
+   > git remote add [adresse du dépôt distant central]
+   > git push origin master
+
+
+B/ raptriement du projet par un collaborateur
+REMARQUE: essayer autant que faire se peut d'égaliser les chemins d'installation,et autres paramètres de connexion en local ...
+
+1/ création d'un nouveau projet de même nom dans TOS et fermer TOS
+2/ commandes git dans le dossier projet nouvellement créé
+   > git init
+   > git add . && git commit -m "first commit"
+   > git remote add [adresse du dépôt distant central]
+   > git fetch origin master
+   > git reset origin/master
+   > git stash
+   > git stash clear
+
+C/ pour tous les utilisateurs qui ont fait A/ ou B/
+
+vous pouvez commiter, pousser, et tirer normalement
+(attention à recharger le projet cependant si TOS est ouvert)

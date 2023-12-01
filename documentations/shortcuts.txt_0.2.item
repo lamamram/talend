@@ -1,0 +1,40 @@
+PRINCIPAUX RACCOURCIS CLAVIER SOUS TALEND
+=========================================
+
+Général
+-------
+
+CTRL + S : enregistrer
+
+F6: exécute le job courant
+F8: stoppe l'exécution
+
+CTRL + ESPACE: affic   he les variables et fonctions disponibles
+               dans la portée du job
+
+
+focus sur le job designer et commencer à écrire: moteur de recherche de composants
+
+
+Référentiel
+-----------
+
+CTRL + SHIFT + D&D d'une métadonnée: implémentation du composant d'entrée associé par défaut
+
+CTRL + D&D d'une métadonnée: implémentation du composant de sortie associé par défaut
+
+
+
+tMap
+----
+
+CTRL + SHIFT + D&D sur une seléction de champs: mapping sur des champs de sortie
+
+
+Routine Java (Eclispse)
+--------------------
+
+SHIFT + O : import par défaut des classes non encore importées
+CTRL + click: accéder au fichier source d'une fonction/méthode
+
+
